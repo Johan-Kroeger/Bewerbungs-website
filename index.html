@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport">
+  <title>Johan Kröger</title>
+<link rel="stylesheet" href="link rel="preconnect href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+  <style>
+ body {
+  font-family: 'Open Sans', sans-serif;
+background-color: rgb(40, 44, 49);
+padding: 0%;
+margin: 0px;
+}
+html {
+  margin: 0px;
+  padding: 0px;
+}
+ 
+ .header-image {
+width: 100%;
+height: 100vh;
+object-fit:cover ;
+object-position: 50% 50%;
+display: block;
+z-index: 100;
+
+}
+ .color {
+  color: blueviolet;
+ }
+ .img-container{
+  background-color: black;
+padding: 1px;
+}
+ 
+
+.navbar{
+  width: 95%;
+  display: flex;
+   justify-content: space-between;
+align-items: center;
+ font: weight:  450px;
+margin-left:3%;
+}
+
+a{
+color: rgb(57, 60, 137);
+text-decoration: none;
+margin-left: 16px;
+
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.text-container{
+background-color: rgb(40, 44, 49);
+font-weight: 600;
+color: #3b848b;
+}
+
+.text-highlight{
+  color: #3b848b;
+  font-size: 40px;
+}
+
+.maps-container{
+  margin-top: 16px;
+  display: flex;
+justify-content: space-between;
+}
+.maps-right{
+  margin-left: 50px;
+  width: 50%;
+  padding: 4%;
+}
+.maps-frame{
+  border: 0;
+  height: 450px;
+  width: 50%;
+}
+.hobbys-container{
+  font-size: 40px;
+}
+ .text-containers{
+  background-color: rgb(40, 44, 49);
+font-weight: 650;
+color: #3b848b;
+}
+
+.img-frame{
+ 
+ border: 0;
+  height: 100px;
+ max-width:  70%;
+}
+ .text-box{
+
+  height: 300px;
+  padding: 30px 70px;
+  display: flex;
+  object-fit:cover ;
+object-position: 50% 50%; 
+gap: 50px;
+}
+a {
+  cursor: pointer;
+}
+
+.half-width{
+width: 88%;
+@media ( max: width 700px;){
+.text-box .half-width{
+  flex-direction: column;
+  align-items: center;
+}
+
+}
+
+}
+h2{
+  text-align: center;
+  font-size: 50px;
+  color: #3b848b;
+  background-color: rgb(40, 44, 49);
+
+}
+
+header{
+position: fixed;
+width: 100%;
+margin:0px ;
+background-color: rgb(40, 44, 49);
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+}
+h3{
+  
+  font-size: 25px;
+  color: #3b848b;
+  background-color: rgb(40, 44, 49);
+
+}
+.links {
+  display: flex;
+  margin-right: 20px;
+  
+}
+.headline {
+  cursor: pointer;
+  margin-left: 20px;
+}
+@media(max-width 900px){
+  .text-container .half-width{
+    flex-direction: column;
+  }
+}
+#info {
+  width: 90%;
+}
+.lol {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.info{
+  width: 10px;
+}
+.ausbildungen{
+  height: 300px;
+  margin-left: 35px;
+  padding: 0px;
+  display: flex;
+  object-fit:cover ;
+object-position:  50px;  
+gap: 50px;
+
+width: 85%;
+@media ( max: width 900px;)
+.text-box .half-width{
+  flex-direction: column;
+  align-items: center;
+  
+}
+background-color: rgb(40, 44, 49);
+font-weight: 600;
+color: #3b848b;
+}
+
+ </style>
+
+</head>
+<body>
+ <header class="header">
+ <nav class="navbar">
+  <h1 onclick="myScroll('top');" class="headline">
+   <span class="text-highlight"> Johan Kröger</span>
+  </h1>
+ 
+  <div class="links">
+    
+   <a  onclick="myScroll('info');">Info</a> 
+  <a onclick="myScroll('interessen')">Interessen</a>
+    <a onclick="myScroll('Ausbildung')">Ausbildung</a>
+     <a onclick="myScroll('Standort')">Standort</a>
+    </div>
+ 
+      </nav>
+      </header>
+  </div>
+
+
+</div>
+
+ 
+</div>
+
+
+ 
+<div class="img-container">
+<img class="header-image" id="top" src="johankroeger.png">
+   
+ </div>
+<h2 >Info</h2>
+<div class="lol">
+  <div id="info" class="text-container">
+Ich heisse Johan Kröger und bin 16 Jahre alt. Ich lebe in Niederrohrdorf und meine Leidenschaft ist die Informatik.
+ Schon früh fand ich meine Neugierde auf die Technik und möchte in Zukunft weiter eintauchen.
+   Ich repariere gerne Computer und Mobiltelefone und setzte die neu auf, habe diese Website und viel mit Lego Mindstorm programmiert.
+   Dies ist eines der Beispiele. <br>Zurzeit bin ich Schüler an der Oberstufe in Niederrohrdorf, besuche die Sekundarschule und werde voraussichtlich im Sommer 2024 die Schule abschliessen.
+    Wie schon gesagt beschäftige ich mich in meiner Freizeit viel mit der Informatik und liebe es Technik-Projekte voran zu treiben.
+     Ausserdem spiele ich Badminton, fahre BMX und betätige mich ehrenamtlich in leitender Funktion in der Cevi (Pfadfinder).   <br>
+      In dem schnell wachsenden Gebiet der Informatik sehe ich meine Zukunft. 
+      Sehr gerne möchte ich eine Lehre als Applikationsentwickler beginnen, um meine grosse Neugier zu stillen. 
+      Dabei möchte ich meine Kompetenzen stetig weiter entwickeln, um am Ende eine soziale, kommunikative und kompetente Persönlichkeit mit umfassendem Wissen in der Informatik zu werden. 
+      Ich hoffe, wir können dieses Ziel gemeinsam erreichen, denn ich suche eine Lehrstelle als Applikationsentwickler, die genau diese Kriterien erfüllt.
+       Bieten Sie das an? Wenn ja, zögern Sie nicht, mich zu kontaktieren. 
+   Ich freue mich auf ein persönliches Kennenlernen.
+</div>
+  </div>
+ 
+
+
+
+
+
+ <h2>Meine Interessen </h2>
+ <div class="text-box half-width">
+  
+ 
+  <div id="interessen" class="text-containers half-width">
+   
+In meiner Freizeit fahre ich gerne BMX.
+   In dem Hobby braucht man viel Gedult und Kreativität, bis man einen Trick erlernt oder um neue Wege zur seiner Umsetztung zu finden.
+    Meine Freunde und ich filmen uns dabei gegenseitig. Die Videos schneide ich dann mit dem Programm "DaVinci Resolve". <br>
+    Auf das Programmiern bin ich durch meine Bastellei an den Geräten gekommen, da ich auch verstehen wollte wie die Software funktioniert. Verstärkt wurde dieser Wunsch dadurch, dass meine Freunde mit dem Programmieren begonnen hatten.
+Ich bin mit Herz und Seele bei der CEVI, den ich arbeite gerne mit Menschen und im Team so dass ich hier als (Hilfs-) leiter voll auf meine Kosten komme.
+Auch spiele ich gerne Badminton und bestreite hier im Team des BCF die Kämpfe um die Aargauer Meisterschaft.
+   
+</div>
+  
+    <video controls src="Bmx-zuerich.mp4" ></video>
+ 
+</div>
+
+<h2>Ausbildungen</h2>
+ <div class=" ausbildungen">
+
+  <div class="ausbildungen">
+ <h3> Sprachen 💬<br></h3>
+  DEUTSCH (MUTTERSP.) 🇩🇪<br>
+  Spanisch(2 MUTTERSP.)sp <br>
+  ENGLISCH (5 J.) 🇬🇧<br>
+  FRANZÖSISCH (3 J.) 🇫🇷<br>
+
+</div>
+
+<h3 id="Ausbildung">Schulbildung 🏫 <br></h3>
+2. Sek <br>
+1.Sek <br>
+PRIMARSCHULE <br>
+</div>
+
+  
+
+<h2>Standort</h2> <br> 
+<div class="maps-container">
+
+  <iframe id="Standort" class="maps-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2699.1498005932353!2d8.299743999999999!3d47.428522300000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4790130931804959%3A0xe4e07d2409af59b7!2sRigistrasse%205%2C%205443%20Niederrohrdorf!5e0!3m2!1sde!2sch!4v1690448586474!5m2!1sde!2sch"
+  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<div class="text-container maps-right">
+ 
+  Ich wohne hier in Niederrordorf,
+   seit dem ich laufen kann. Niederrohrdorf gehört zum Bezirk Baden und liegt am Rande des Reusstals, zwischen dem Bezirkshauptort Baden und Bremgarten am Fusse des Rohrdorferbergs. Diese 702 Meter hohe Erhebung bildet einen Teil der Heitersberg-Hügelkette, die das Reusstal vom weiter östlich gelegenen Limmattal trennt. Zwischen Niederrohrdorf, Stetten und Mellingen liegt ein Waldgebiet mit verschiedenen Sumpfgebieten . Am 31. Dezember 2021 lebten 4389 Menschen in Niederrohrdorf.
+   Unter anderem gibt es hier einen Pumptrack auf dem ich gere Fahrradtricks mache. <br> Hier befindet sich auch die neue Oberstufe in der ich die Sek besuche.
+   Wie bereits erwähnt besuche ich hier die 3 Sekundarstufe und werde voraussichtlich im sommer 2024 meine Schulzeit abschliessen.<br>
+
+</div>
+
+</div>
+
+<script>
+  
+  function myScroll(id) {
+    //var element = document.getElementById("info");
+
+    // smooth scroll to element and align it at the bottom
+    document.getElementById(id).scrollIntoView({ behavior: 'smooth', block: 'end'});
+}
+
+</script>
+
+</body>
+
+
+</html>
+
